@@ -6,5 +6,6 @@ Applciation used
 
 ## AngularJs
 ## Grunt ( for tasks runner )
-## Scss
+## SCSS 
+## Bootstrap
 ## jQuery 
