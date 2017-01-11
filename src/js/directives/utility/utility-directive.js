@@ -1,4 +1,3 @@
-
 // directive for loader while on request
 AppModule.directive('loaderSpin', function () {
     return{

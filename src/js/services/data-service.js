@@ -31,7 +31,7 @@ serviceModule.factory('dataService',['$http', function($http) {
         }
     };
     
-
+    
     dataService.getUserRepo = function () {
       return this.userRepo;
     }
@@ -42,7 +42,6 @@ serviceModule.factory('dataService',['$http', function($http) {
     
     dataService.getUserDetails = function () {
       return this.userDetails;
-      //var d = $deffred
     }
     
     dataService.setUserDetails = function ( userDetails ) {
@@ -64,21 +63,5 @@ serviceModule.factory('dataService',['$http', function($http) {
       return $http.get(url);
     }
     
-    dataService.getGitHubUserInformation = function ( userName, $scope, service ){
-      dataService.gitHubUserDetails( userName, $scope, service )
-        .then(function ( response ) {
-           if ( response.data.name == "" ) {
-             $scope.userNotFound = true;
-           }else{
-            service.setUserDetails(response.data);
-            $scope.loaded = true;
-            $scope.userDetails  = service.getUserDetails();
-            $scope.stopLoader();
-           }
-        }, function () {
-          $scope.stopLoader();
-          $scope.userNotFound = true;
-        });
-    }
     return dataService;
 }]);

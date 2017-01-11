@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 
+//Controller method which will find the user and returns to project page
 AppModule.controller('ProjectListController', ['$scope','$location','dataService', 'growl', 'utilityService',
   function ($scope, $location, dataService, growl, utilityService) {
     $scope.getGitInfo = function () {
@@ -27,8 +28,8 @@ AppModule.controller('ProjectListController', ['$scope','$location','dataService
       });
    };
 }]);
-
-AppModule.controller('ProjectListDetails',['$scope', '$routeParams','dataService', 'growl', 'utilityService',
+//Controller method which will return the project list for a user 
+AppModule.controller('ProjectListDetailsController',['$scope', '$routeParams','dataService', 'growl', 'utilityService',
   function ($scope, $routeParams, dataService, growl, utilityService) {
     $scope.startLoader();
     dataService.gitHubRepoDetails($routeParams.username)
@@ -59,8 +60,8 @@ AppModule.controller('ProjectListDetails',['$scope', '$routeParams','dataService
         });
     }
 }]);
-
-AppModule.controller('ReadMeCtrl',['$scope', '$http','$routeParams','dataService', 'growl', 'utilityService',
+//Controller method which will return the read me file for a perticular repo
+AppModule.controller('ReadMeController',['$scope', '$http','$routeParams','dataService', 'growl', 'utilityService',
   function ($scope, $http, $routeParams, dataService, growl, utilityService) {
     $scope.startLoader();
     dataService.gitHubRepoReadMeFileDetails($routeParams.username , $routeParams.reponame )

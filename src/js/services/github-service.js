@@ -1,7 +1,9 @@
 AppModule.factory('gitHubService',['$http', function() {
     
+    
     var dataService = {};
 
+    // service to set and getter for user and repo
     dataService.getUserRepo = function () {
       return this.userRepo;
     }

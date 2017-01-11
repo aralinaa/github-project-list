@@ -1,3 +1,4 @@
+//directive for header and footer  
 AppModule.directive('headerTpl', function () {
   return{
     restrict: 'E',
