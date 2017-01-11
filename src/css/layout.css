@@ -1,0 +1,32 @@
+/*
+    Document   : layout
+    Created on : 09th Jan, 2017, 04:24:12 PM
+    Author     : saorabhkumar
+    Description:
+    Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+/******************************************************
+  @group Usualy Common Layout CSS : Start
+******************************************************/
+html, body {
+    background-color:#fff;
+    color: #000;
+    width:100%;
+    height:100%;
+    font-family: 'Lato', Calibri, Arial, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+#main-wrap{
+    min-height: 100%;
+    height: auto;
+}
+
+/******************************************************
+  @group Usualy Common Layout CSS : Ends
+******************************************************/

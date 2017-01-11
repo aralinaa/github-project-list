@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" ng-app="AppModule"> <!--<![endif]-->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="Assignment done by Saorabh Kumar, +918390721599, saorabh.kr@gmail.com">
+    <meta name="author" content="">
+
+    <!-- Default Meta Tags -->
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+
+    <!-- These Info will help full while sharing something on Facebook/pintrest -->
+    <meta property="fb:app_id" content=""/>
+    <meta property="og:type" content=""/>
+    <meta property="og:title" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:description" content=""/>
+    <meta property="og:url" content=""/>
+
+    <!-- Twitter card-->
+    <meta name="twitter:widgets:csp" content=""/>
+    <meta name="twitter:card" content=""/>
+    <meta name="twitter:site" content=""/>
+    <meta name="twitter:app:name:iphone" content=""/>
+    <meta name="twitter:app:name:ipad" content=""/>
+    <meta name="twitter:app:name:googleplay" content=""/>
+    <meta name="twitter:app:id:iphone" content=""/>
+    <meta name="twitter:app:id:ipad" content=""/>
+    <meta name="twitter:app:id:googleplay" content=""/>
+
+    <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon"/>
+    <link rel="icon" href="images/favicon.ico" type="image/png"/>
+
+    <!-- Fontawesome core CSS -->
+    <!--<link rel="stylesheet" href="css/lib/font-awesome.min.css">-->
+
+    <!-- CSS: implied media="all" -->
+
+    <link href="dist/all.app.min.css" rel="stylesheet"/>
+    
+    <base href="/" />
+    <title>Assignment</title>
+  </head>
+  <body  ng-controller="MainController as MainCtrl">
+  <header-tpl></header-tpl>
+  <div id="main-wrap" ng-view></div>
+  <div growl class="growl-notification"></div>
+  <footer-tpl></footer-tpl>
+
+  <!-- Lib JavaScript -->
+  <!-- ================================================== -->
+  <!-- Placed at the end of the document so nothing blocks to render -->
+  <script src="dist/all.app.min.js"></script>
+</body>
+</html>

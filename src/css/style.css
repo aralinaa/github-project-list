@@ -1,0 +1,144 @@
+/*
+    Document   : style
+    Created on : 09th Jan, 2017, 04:24:12 PM
+    Author     :
+    Description:
+    Purpose of the stylesheet follows.
+*/
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+/******************************************************
+  @group the basic Main Content CSS : Start
+******************************************************/
+.repolist p, .ghcontent p {
+  font-size: 1.4em;
+  line-height: 1.55em;
+  margin-bottom: 12px;
+}
+
+.page-title {
+  color: #8f8f8f;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.container-wrap {
+  display: flex;
+  height: 100vh;
+}
+
+.align-center-wrap {
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.align-center-wrap form {
+  display: block;
+  padding-top: 20px;
+  height: 160px;
+}
+
+.user-info h2 {
+  font-size: 2.8em;
+  line-height: 1.55em;
+  margin-bottom: 4px;
+  color: #333;
+  border-bottom: 1px solid #d6d6d6;
+  margin: 20px 0;
+}
+.user-info .smallname {
+  font-size: 0.75em;
+  color: #a9a9a9;
+  font-style: italic;
+}
+
+.avi {
+  float: left;
+  margin-right: 7px;
+  margin-bottom: 7px;
+}
+.avi img {
+  border: 1px solid #ccc;
+  padding: 3px;
+}
+
+.repolist {
+  display: block;
+  clear: both;
+  width: 100%;
+}
+.repolist .projects-list {
+  padding: 0;
+}
+.repolist ul li {
+  float: left;
+  padding-bottom: 10px;
+  display: block;
+  width: 100%;
+}
+.repolist ul li a {
+  background-color: transparent;
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid #333;
+  white-space: nowrap;
+  padding: 10px 30px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  user-select: none;
+  color: #333;
+  border-radius: 3px;
+  transition: width 0.4s ease;
+  float: left;
+}
+.repolist ul li a:hover {
+  background: #333;
+  border: 1px solid #333;
+  color: #fff;
+}
+.repolist ul li:first-child {
+  margin-left: 0;
+}
+
+.proj-lists .user-info .smallname.color333 {
+  color: #333;
+}
+
+.growl-container > .growl-item {
+  padding: 20px 10px !important;
+}
+
+.alert-dismissable .close {
+  top: -4px !important;
+  right: 0 !important;
+}
+
+.alert-dismissible .close {
+  top: -4px !important;
+  right: 0 !important;
+}
+
+/******************************************************
+  @group the basic Main Content CSS : Start
+******************************************************/
+/******************************************************
+  @group the basic media queries  : Starts
+******************************************************/
+@media (max-width: 760px) {
+  .user-info h2 {
+    font-size: 21px;
+    margin-top: 10px;
+  }
+}
+/******************************************************
+  @group the basic media queries  : Ends
+******************************************************/
+
+/*# sourceMappingURL=style.css.map */

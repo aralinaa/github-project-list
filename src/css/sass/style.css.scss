@@ -1,0 +1,153 @@
+/*
+    Document   : style
+    Created on : 09th Jan, 2017, 04:24:12 PM
+    Author     :
+    Description:
+    Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+/******************************************************
+  @group the basic Main Content CSS : Start
+******************************************************/
+//colors
+$color_stack_approx: #8f8f8f;
+$color_mine_shaft_approx: #333;
+$color_iron_approx: #d6d6d6;
+$color_shady_lady_approx: #a9a9a9;
+$color_celeste_approx: #ccc;
+$white: #fff;
+
+%extend_1 {
+    font-size: 1.4em;
+    line-height: 1.55em;
+    margin-bottom: 12px;
+}
+
+.page-title {
+    color: $color_stack_approx;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+.container-wrap {
+    display: flex;
+    height: 100vh;
+}
+.align-center-wrap {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    form {
+        display: block;
+        padding-top: 20px;
+        height: 160px;
+    }
+}
+.user-info {
+    h2 {
+        font-size: 2.8em;
+        line-height: 1.55em;
+        margin-bottom: 4px;
+        color: $color_mine_shaft_approx;
+        border-bottom: 1px solid $color_iron_approx;
+        margin: 20px 0;
+    }
+    .smallname {
+        font-size: 0.75em;
+        color: $color_shady_lady_approx;
+        font-style: italic;
+    }
+}
+.avi {
+    float: left;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    img {
+        border: 1px solid $color_celeste_approx;
+        padding: 3px;
+    }
+}
+.repolist {
+    display: block;
+    clear: both;
+    width: 100%;
+    p {
+        @extend %extend_1;
+    }
+    .projects-list{
+        padding:0;
+    }
+    ul li {
+        float: left;
+        padding-bottom: 10px;
+        display: block;
+        width: 100%;
+        a {
+            background-color: transparent;
+            display: inline-block;
+            margin-bottom: 0;
+            text-align: center;
+            vertical-align: middle;
+            cursor: pointer;
+            border: 1px solid $color_mine_shaft_approx;
+            white-space: nowrap;
+            padding: 10px 30px;
+            font-size: 16px;
+            line-height: 1.42857143;
+            user-select: none;
+            color: $color_mine_shaft_approx;
+            border-radius: 3px;
+            transition: width 0.4s ease;
+            float: left;
+            &:hover {
+                background: $color_mine_shaft_approx;
+                border: 1px solid $color_mine_shaft_approx;
+                color: $white;
+            }
+        }
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+}
+.ghcontent p {
+    @extend %extend_1;
+}
+.proj-lists .user-info .smallname.color333 {
+    color: $color_mine_shaft_approx;
+}
+.growl-container > .growl-item {
+    padding: 20px 10px!important;
+}
+.alert-dismissable .close {
+    top: -4px!important;
+    right: 0!important;
+}
+.alert-dismissible .close {
+    top: -4px!important;
+    right: 0!important;
+}
+/******************************************************
+  @group the basic Main Content CSS : Start
+******************************************************/
+
+/******************************************************
+  @group the basic media queries  : Starts
+******************************************************/
+@media (max-width: 760px){
+    .user-info h2{
+        font-size: 21px;
+        margin-top: 10px;
+    }
+
+}
+/******************************************************
+  @group the basic media queries  : Ends
+******************************************************/
+

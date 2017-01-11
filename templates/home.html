@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="container-wrap">
+    <loader-spin></loader-spin>
+    <div class="row align-center-wrap" ng-hide="!!loader">
+      <div class="col-xs-12 padding0">
+        <h1 class="page-title">Github Project Details</h1>
+        <form name="userName" ng-submit="getGitInfo()" novalidate >
+          <input type="text" name="name" class="question" id="name" required autocomplete="off" ng-model="user.userName" />
+          <label for="name"><span>Enter github user name to look up their projects?</span></label>
+          <input type="submit" value="Submit!" />
+        </form>
+      </div>
+    </div>
+    <!-- /.row -->
+  </div>
+</div>
+<!-- /.container -->

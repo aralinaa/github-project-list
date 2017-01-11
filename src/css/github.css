@@ -1,0 +1,168 @@
+/*
+    Document   : Github Readme File
+    Created on : 09th Jan, 2017, 04:24:12 PM
+    Author     : saorabhkumar
+    Description:
+    Purpose of the stylesheet follows.
+*/
+.readme-file {
+  display: block;
+  overflow-x: auto;
+  color: #333;
+  -webkit-text-size-adjust: none;
+}
+.readme-file h1, 
+.readme-file h2, 
+.readme-file h3, 
+.readme-file h4, 
+.readme-file h5, 
+.readme-file h6 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+.readme-file h1 {
+    padding-bottom: 0.3em;
+    font-size: 2em;
+    border-bottom: 1px solid #eee
+}
+
+.readme-file h2 {
+    padding-bottom: 0.3em;
+    font-size: 1.5em;
+    border-bottom: 1px solid #eee
+}
+
+.readme-file h3 {
+    font-size: 1.25em
+}
+
+.readme-file h4 {   
+    font-size: 1em
+}
+
+.readme-file h5 {
+    font-size: 0.875em
+}
+
+.readme-file h6 {
+    font-size: 0.85em;
+    color: #777
+}
+
+
+.readme-file pre {
+    padding: 10px 20px;
+}
+.readme-file .highlight pre, .readme-file pre {
+    padding: 10px;
+    overflow: auto;
+    font-size: 15px;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border-radius: 3px;
+}
+.readme-file pre {
+    word-wrap: normal;
+}
+.readme-file p, 
+.readme-file blockquote, 
+.readme-file ul, 
+.readme-file ol, 
+.readme-file dl, 
+.readme-file table, 
+.readme-file pre {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+.readme-file code{
+    color: #000;
+    padding: 4px 10px ;
+    margin: 0;
+    background-color: rgba(0,0,0,0.04);
+    border-radius: 3px;
+}
+.readme-file pre code{
+    background-color: transparent;
+}
+.readme-file table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+}
+.readme-file table tr {
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+.readme-file table th, .readme-file table td {
+    padding: 6px 13px;
+    border: 1px solid #ddd;
+}
+.readme-file table th {
+    font-weight: bold;
+}
+.readme-file table tr {
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+.readme-file table code, .readme-file tt {
+    padding: 0;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    margin: 0;
+    font-size: 85%;
+    background-color: rgba(0,0,0,0.04);
+    border-radius: 3px;
+}
+.readme-file table tr:nth-child(2n) {
+    background-color: #f8f8f8;
+}
+.readme-file table tr {
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+.readme-file img {
+    max-width: 100%;
+    box-sizing: content-box;
+    background-color: #fff
+}
+.readme-file img[align=right] {
+    padding-left: 20px
+}
+.readme-file img[align=left] {
+    padding-right: 20px
+}
+.readme-file .emoji {
+    max-width: none;
+    vertical-align: text-top;
+    background-color: transparent
+}
+.readme-file span.frame {
+    display: block;
+    overflow: hidden
+}
+.readme-file span.frame>span {
+    display: block;
+    float: left;
+    width: auto;
+    padding: 7px;
+    margin: 13px 0 0;
+    overflow: hidden;
+    border: 1px solid #ddd
+}
+.readme-file span.frame span img {
+    display: block;
+    float: left
+}
+.readme-file span.frame span span {
+    display: block;
+    padding: 5px 0 0;
+    clear: both;
+    color: #333
+}
+.readme-file span.align-center {
+    display: block;
+    overflow: hidden;
+    clear: both
+}

@@ -1,0 +1,35 @@
+{
+  "name": "angularjs-projectlist.github.io",
+  "lib": {
+    "dependencies": {
+      "angular": "latest",
+      "angular-ui-router": "latest",
+      "angular-animate": "latest",
+      "bootstrap-sass-official": "latest"
+    }
+  },
+  "vendor": {
+    "dependencies": {}
+  },
+  "homepage": "https://github.com/saorabhkr/angularjs-github-projectlist.github.io#readme",
+  "authors": [
+    "saorabh"
+  ],
+  "description": "main bower json",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-growl-v2": "~0.7.9",
+    "normalize-css": "^5.0.0",
+    "angular-bootstrap": "^2.4.0"
+  },
+  "private": true
+}
